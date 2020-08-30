@@ -4,8 +4,10 @@ A simple TCP chat server in go
 
 ### Build
 
-`go get ./...
-go run main.go`
+```go get ./...
+
+go run main.go
+```
 
 ### Build Docker image
 
