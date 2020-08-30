@@ -28,7 +28,7 @@ func (s *server) run() {
 		case CMD_JOIN:
 			s.join(cmd.client, cmd.args)
 		case CMD_ROOMS:
-			s.list_rooms(cmd.client, cmd.args)
+			s.listRooms(cmd.client, cmd.args)
 		case CMD_MSG:
 			s.msg(cmd.client, cmd.args)
 		case CMD_QUIT:
@@ -78,7 +78,7 @@ func (s *server) join(c *client, args []string) {
 	c.msg(fmt.Sprintf("Welcome to %s", r.name))
 }
 
-func (s *server) list_rooms(c *client, args []string) {
+func (s *server) listRooms(c *client, args []string) {
 
 	var rooms []string
 	for name := range s.rooms {
