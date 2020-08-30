@@ -33,3 +33,4 @@ Use telnet to connect to server
 /rooms := list all the rooms availaible
 
 /quit := quit`
+
