@@ -4,7 +4,8 @@ A simple TCP chat server in go
 
 ### Build
 
-```go get ./...
+```
+go get ./...
 
 go run main.go
 ```
