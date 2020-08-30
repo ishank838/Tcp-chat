@@ -24,7 +24,7 @@ Use telnet to connect to server
 
 ### Commands
 
-/nick nickname := sets nickname of the user
+`/nick nickname := sets nickname of the user
 
 /join grp-name := join the grp-name if exists else create a new group
 
@@ -32,4 +32,4 @@ Use telnet to connect to server
 
 /rooms := list all the rooms availaible
 
-/quit := quit
+/quit := quit`
